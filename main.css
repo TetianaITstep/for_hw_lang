@@ -1,0 +1,38 @@
+.lang_box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+button{
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 15px;
+}
+
+/* button:hover{
+    border: 1px solid tomato;
+    color: tomato;
+} */
+button:hover{
+    border: 1px solid tomato;
+    color: tomato;
+}
+
+img{
+    width: 50px;
+}
+
+h1,h2,p{
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 20px;
+}
+.fr{
+    margin-right: 15px;
+}
+
+.active{
+    background-color: tomato;
+    color: white;
+    border: 1px solid white;
+}
